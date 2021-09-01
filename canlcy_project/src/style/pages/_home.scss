@@ -1,0 +1,10 @@
+@use '../themes/defaultThemes' as *;
+@use '../util/variables' as *;
+@use '../util/mixins' as *;
+
+
+
+p.about-us{
+    @include flex-center;
+    @include auto-center;
+}

@@ -80,6 +80,8 @@ h4 {
 .container{
     text-align: center;
     margin-top: 5rem;
+    justify-content: center;
+    @include center-auto
 }
 
 .underline{

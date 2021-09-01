@@ -21,7 +21,7 @@
       }
     }
     .logo {
-      height: 30px;
+      height: 142px;
     }
     .links-container {
       height: 0;
@@ -44,23 +44,14 @@
         color: $primary-4;
         padding: 1.5rem;
       }
-      &::after {
-        @include pseudo;
-        position: absolute;
-        bottom: 0;
-        height: 3px;
-        background: $primary-8;
-        transition: 0.3s ease all;
-      }
-    }
-
-    .social-icons {
-      display: flex;
-      height: 0;
-
-      li {
-        margin: 0.5rem 1rem;
-      }
+      // &::after {
+      //   @include pseudo;
+      //   position: absolute;
+      //   bottom: 0;
+      //   height: 3px;
+      //   background: $primary-8;
+      //   transition: 0.3s ease all;
+      // }
     }
   }
 }
@@ -104,4 +95,8 @@
       }
     }
   }
+}
+.logo{
+  height: 142px;
+  width: 142px;
 }
