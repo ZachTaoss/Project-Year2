@@ -20,16 +20,6 @@
         transform: rotate(90deg);
       }
     }
-    .logo {
-      height: 142px;
-    }
-    .links-container {
-      height: 0;
-      overflow: hidden;
-      &.show {
-        height: auto;
-      }
-    }
     .links {
       color: $grey-2;
       font-size: 1rem;
@@ -84,6 +74,7 @@
             background: transparent;
           }
         }
+
       }
       .social-icons {
         display: flex;
@@ -98,5 +89,5 @@
 }
 .logo{
   height: 142px;
-  width: 142px;
+  width: 160px;
 }

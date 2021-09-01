@@ -4,7 +4,11 @@
 
 
 
-p.about-us{
-    @include flex-center;
-    @include auto-center;
+
+
+.home-img{
+    border-radius: $radius;
+    border: soild $primary-0;
+    margin-bottom: 1rem;
+    box-shadow: $dark-shadow;
 }
